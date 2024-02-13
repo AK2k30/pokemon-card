@@ -27,6 +27,8 @@ const Home = () => {
     }
   }, [currentPage]);
 
+//responsible for random changes of card on daily basis and not on every refresh under search bar
+
   const shuffleArray = (array) => {
     let currentIndex = array.length, randomIndex;
 
